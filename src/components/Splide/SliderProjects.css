@@ -1,7 +1,9 @@
 
 .splide{
-   width: 400px;
+   width: 500px;
+   margin-right: 3em;
 }
+
 
 
 .splide__slide{
@@ -15,8 +17,15 @@
 }
 
 .splide__slide img {
-    width: 70%;
+    width: 80%;
     height: auto;
+}
+
+@media all and (max-width: 430px){
+    .splide{
+        width: 420px;
+        margin-right: 3em;
+     }
 }
 
 

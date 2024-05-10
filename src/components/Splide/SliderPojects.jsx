@@ -8,7 +8,7 @@ import './SliderProjects.css'
 
 const Slider = () => {
   return (
-   <div>
+   <div className='slider__projects__container'>
        <Splide aria-label="My Favorite Images" options={{
         speed: 2000,
         interval: 2000,
