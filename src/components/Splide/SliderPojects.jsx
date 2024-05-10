@@ -15,16 +15,16 @@ const Slider = () => {
         type: 'loop',
        }}>
           <SplideSlide>
-            <img width='150px' src="src/pages/Proyectos/images/weather app.png" alt="Image 1"/>
+            <img width='150px' src="/Poyects-images/weather app.png" alt="Image 1"/>
           </SplideSlide>
           <SplideSlide>
-            <img src="src/pages/Proyectos/images/rick y morty api.jpg" alt="Image 2"/>
+            <img src="/Poyects-images/rick y morty api.jpg" alt=""/>
           </SplideSlide>
           <SplideSlide>
-            <img src="src/pages/Proyectos/images/usercrudapp.png" alt="Image 2"/>
+            <img src="/Poyects-images/usercrudapp.png" alt="Image 2"/>
           </SplideSlide>
           <SplideSlide>
-            <img src="src/pages/Proyectos/images/pokedexapp1.png" alt="Image 2"/>
+            <img src="/Poyects-images/pokedexapp1.png" alt="Image 2"/>
           </SplideSlide>
 
         </Splide>

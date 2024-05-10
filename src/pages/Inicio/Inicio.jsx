@@ -13,7 +13,7 @@ const Inicio = () => {
             <h2 className='home-subheader'>Soy desarrollador web frontend.</h2>
         </div>
         <div className='img-conatiner'>
-           <img src="src/assets/gift.gif" alt="" />
+           <img src="/gift.gif" alt="" />
         </div>
      </div>
      

@@ -19,22 +19,22 @@ const SliderSkills = () => {
         type: 'loop',
        }}>
           <SplideSlide>
-            <img src="src/components/Carrousel/images/html5.png" alt="" />
+            <img src="/Skills-Images/html5.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="src/components/Carrousel/images/css3.png" alt="" />
+            <img src="/Skills-Images/css3.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="src/components/Carrousel/images/JavaScript.png" alt="" />
+            <img src="/Skills-Images/JavaScript.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="src/components/Carrousel/images/react.png" alt="" />
+            <img src="/Skills-Images/react.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="src/components/Carrousel/images/nodejs.png" alt="" />
+            <img src="/Skills-Images/nodejs.png" alt="" />
           </SplideSlide>
           <SplideSlide>
-            <img src="src/components/Carrousel/images/git.png" alt="" />
+            <img src="/Skills-Images/git.png" alt="" />
           </SplideSlide>
           
         </Splide>
