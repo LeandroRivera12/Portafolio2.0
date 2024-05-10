@@ -17,6 +17,9 @@
 }
 
 .contac-btn{
+    width: 200px;
+    height: 70px;
+    color: #0D6EFD;
     transition: transform .3s ease;
 }
 
