@@ -21,7 +21,7 @@ function Menu({ setLoading }) {
     <Navbar expand="lg" className="menu-container bg-primary d-flex">
       <Container className='d-flex'>
         <Navbar.Brand href='/'>
-         <img className='img-logo' src="src/components/Menu/logo.png" alt="" />  <p className='name-header'>Leandro Rivera</p> 
+         <img className='img-logo' src="public/logo.png" alt="" />  <p className='name-header'>Leandro Rivera</p> 
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

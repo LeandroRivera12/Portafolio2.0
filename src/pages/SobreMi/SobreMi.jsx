@@ -23,9 +23,10 @@ const SobreMi = ({ setLoading }) => {
         encontré la pasión que tanto había buscado en una profesión de vida. Mis ideales son el trabajo riguroso y la excelencia, me motiva
          aprender nuevas tecnologías, genero buen ambiente laboral y comunicativo, me gusta abordar los problemas con paciencia y optimismo.
       </p>
-      <Button onClick={handleClick} className='contac-btn' variant="primary" size="lg">
-          Contáctame
-        </Button>{' '}
+      <button onClick={handleClick} className='contac-btn' variant="primary" size="lg">
+      Contáctame</button> 
+        
+        
     </div>
   )
 }
