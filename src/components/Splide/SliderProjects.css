@@ -10,6 +10,10 @@
     align-items: center;
 }
 
+.splide__track{
+    margin-right: 20px;
+}
+
 .splide__slide img {
     width: 70%;
     height: auto;
