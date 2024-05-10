@@ -1,0 +1,21 @@
+
+.splide{
+   width: 400px;
+}
+
+
+.splide__slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splide__slide img {
+    width: 70%;
+    height: auto;
+}
+
+
+
+
+

@@ -1,0 +1,106 @@
+.form-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.header-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    line-height: 5px;
+    position: relative;
+}
+
+.form-content{
+    width: 300px;
+    background-color: #1c75fae1;
+    height: 400px;
+    display: flex;
+    border-radius: 8px;
+    padding: 18px 0;
+    margin: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.field-name{
+    display: flex;
+    flex-direction: column;
+}
+
+.field-Email{
+    display: flex;
+    flex-direction: column;
+}
+
+.field-message{
+    display: flex;
+    flex-direction: column; 
+}
+
+.form-input{
+    width: 240px;
+    height: 25px;
+    border: none;
+    transition: transform .3s ease;
+}
+
+.texarea-form{
+    border: none;
+}
+
+.label-form{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form-btn{
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0f68eefe;
+    transition: transform .3s ease;
+    color: white;
+}
+
+.form-btn:hover{
+    transform: scale(1.1);
+}
+
+.alert-container{
+    display: flex;
+    align-items: flex-start;
+    top: 20px;
+}
+
+.btn-social {
+    width: 70px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    background-color: #0D6EFD;
+    transition: transform 0.3s ease;
+}
+
+
+.btn-social:hover {
+    transform: scale(1.1); /* Escala el botón al 110% en el efecto de hover */
+}
+
+.btn-with-zoom-hover:hover::after{
+    transition: 0.3s ease;
+}
+

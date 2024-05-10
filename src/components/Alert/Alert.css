@@ -1,0 +1,5 @@
+.alert-container{
+    position: static;
+    top: 20px; /* Ajusta la distancia desde la parte superior según tus necesidades */
+    right: -10px;
+}
