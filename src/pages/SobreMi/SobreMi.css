@@ -16,11 +16,11 @@
     font-weight: 500;
 }
 
-.contac-btn button{
+.contac-btn{
     transition: transform .3s ease;
 }
 
-.contac-btn button:hover{
+.contac-btn:hover{
     transform: scale(1.2);
 }
 
