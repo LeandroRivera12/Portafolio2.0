@@ -9,9 +9,7 @@ const Contacto = () => {
     const refInput = useRef()
     const [ShowAlert, setShowAlert] = useState(false)
 
-    const handleSubmit = (event) => {
-        event.preventDefault()
-
+    const handleSubmit = () => { 
         const serviceId = "service_wj02nkl";
         const templateId = "template_dl5brt8";
         // 3 parametro
@@ -19,10 +17,9 @@ const Contacto = () => {
 
         emailjs.sendForm(serviceId, templateId, refForm.current, apiKey)
         .then(result => console.log(result.text))
-        .catch(error => console.error(error))
-        
+        .catch(error => console.error(error)) 
     }
-    console.log(refInput)
+  
 
     const handleClick = () => {
       
@@ -30,13 +27,11 @@ const Contacto = () => {
         setShowAlert(true)
         const timer = setTimeout(() => {
           setShowAlert(false)
-        }, 2200)
-        
+        }, 2200) 
         return () => clearTimeout(timer)
       } else {
         setShowAlert(false)
       }
-      
     }
 
   return (
@@ -77,7 +72,6 @@ const Contacto = () => {
                 </svg>
               </a>
             </div>
-      
     </div>
   )
 }

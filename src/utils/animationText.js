@@ -1,0 +1,5 @@
+function animacion () {
+    let textoAnimacion = [
+        
+    ]
+}

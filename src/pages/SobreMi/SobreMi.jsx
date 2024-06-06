@@ -10,7 +10,7 @@ const SobreMi = ({ setLoading }) => {
     setLoading(true)
     const timer = setTimeout(() => {
       setLoading(false)
-      navigate('/Contacto')
+      navigate('/Contac')
     }, 2000)
 
     return () => clearTimeout(timer)

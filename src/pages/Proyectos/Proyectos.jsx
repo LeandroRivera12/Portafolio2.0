@@ -1,8 +1,8 @@
-import React from 'react'
-import Slider from '../../components/Splide/SliderPojects'
 import './Proyectos.css'
+import SliderProjects from '../../components/Splide/SliderProjects'
 
 const Proyectos = () => {
+
   return (
     <div className='porjects__container'>
       <div className='projects__description'>
@@ -22,7 +22,7 @@ const Proyectos = () => {
         </ul>
       </div>
       <div className='projects__slider'>
-        <Slider/>
+        <SliderProjects/>
       </div>
     </div>
   )

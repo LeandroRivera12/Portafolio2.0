@@ -1,20 +1,37 @@
-.home-container{
+
+.home__container{
    display: grid;
    /* width: 100%; */
    grid-template-columns: repeat(2, 50%);
    justify-content: center;
+   
 }
 
-.home-description{
+.home__description{
     margin: 20px;
     padding: 10px 30px;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
+
 .home-header{
     font-weight: 700;
+}
+
+.barra__escritura{
+    width: 3px;
+    height: 70px;
+    margin-left: 10px;
+    background-color: #181818;
+    transform: rotateZ(8deg);
+    animation: barra-animada 1s ease infinite;
+}
+
+@keyframes barra-animada {
+    50% {
+        height: 20px;
+    }
 }
 
 .home-name{
@@ -30,8 +47,8 @@
 
 .img-conatiner img{
     margin-top: 30px;
-    width: 350px;
-    height: 300px;
+    width: 250px;
+    height: 330px;
 }
 
 
@@ -57,9 +74,9 @@
     .img-conatiner{
         margin-right: 0;
         padding-right: 0;
-    }
-    
+    }  
 }
+
 @media all and (max-width: 500px){
     .home-header{
         text-align: center;

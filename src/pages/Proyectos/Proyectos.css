@@ -1,14 +1,10 @@
 .porjects__container{
     display: grid;
-    padding: 20px;
+    padding: 10px;
     grid-template-columns: repeat(2, 50%);
     justify-content: center;
     overflow-x: hidden;
-    scrollbar-width: none;
 }
-
-
-
 
 .projects__description{
     font-size: 16px;
@@ -19,14 +15,19 @@
     list-style: none;
 }
 
+.projects__slider{
+    display: flex;
+    justify-content: center;
+}
 
-@media all and (max-width: 700px){
+
+@media all and (max-width: 1120px){
     .porjects__container{
         display: flex;
         flex-direction: column;
     }
     .projects__description{
-        padding: 3em;
+        padding: 2em;
     }
 }
 

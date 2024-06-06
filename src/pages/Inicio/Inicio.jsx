@@ -4,16 +4,16 @@ import './Inicio.css'
 
 const Inicio = () => {
 
- 
-
+    
   return (
-     <div className='home-container'>
-       <div className='home-description'>
-            <h1 className='home-header'>Hola, mi nombre es <b className='home-name'>Leandro</b></h1>
-            <h2 className='home-subheader'>Soy desarrollador web frontend.</h2>
+     <div className='home__container'>
+       <div className='home__description'>
+            <h1 className='home__header'>Hola, soy</h1>
+            <div className="text__animation"></div>
+            <div className='barra__escritura'></div>    
         </div>
         <div className='img-conatiner'>
-           <img src="/gift.gif" alt="" />
+           <img src="/portada cv.jpg" alt="" />
         </div>
      </div>
      

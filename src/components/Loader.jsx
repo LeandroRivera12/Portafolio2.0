@@ -1,5 +1,4 @@
 import Spinner from 'react-bootstrap/Spinner';
-import { Outlet, json } from 'react-router-dom';
 
 function Loader() {
 

@@ -1,3 +1,4 @@
+import './index.css'
 import './App.css'
 import { Route, Routes } from 'react-router-dom'
 import Inicio from './pages/Inicio/Inicio'
@@ -25,16 +26,21 @@ function App() {
   
 
   return (
-    <div>
-      <Menu setLoading={setLoading}/>
-      {Loading && <Loader/>}
-      <Routes>
-           {!Loading && <Route path='/' element={<Inicio />} />}
-            {!Loading && <Route path='/SobreMi' element={<SobreMi setLoading={setLoading}/>} />}
-            {!Loading && <Route path='/Habilidades' element={<Skills/>} />}
-           {!Loading && <Route path='/Proyectos' element={<Proyectos/>}/>}
-           {!Loading && <Route path='/Contacto' element={<Contacto setLoading={setLoading}/>}/>}
-      </Routes>
+    <div className='app__container'>
+      <div className='menu__container'>
+        <Menu setLoading={setLoading}/> 
+      </div>
+      
+        {Loading && <Loader/>}
+      <div className='routes__container'>
+        <Routes>
+            {!Loading && <Route path='/' element={<Inicio />} />}
+              {!Loading && <Route path='/About' element={<SobreMi setLoading={setLoading}/>} />}
+              {!Loading && <Route path='/Skills' element={<Skills/>} />}
+            {!Loading && <Route path='/Projects' element={<Proyectos/>}/>}
+            {!Loading && <Route path='/Contac' element={<Contacto setLoading={setLoading}/>}/>}
+        </Routes>
+      </div>
     </div>
      
   )

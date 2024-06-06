@@ -1,0 +1,450 @@
+section:hover{
+  cursor: pointer;
+}
+.skills__container{
+    display: grid;
+    grid-template-columns: repeat(4, 180px);
+    grid-template-rows: repeat(2, 170px);
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+
+
+/* CARD DE HTML*/
+
+section.card__html{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #f16027;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__html:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #f16027;
+  color: #ffffff;
+}
+
+.card__content__html {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f16027;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/html.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__html:hover .card__content__html {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+
+/* Commands to change the shadows in dark mode
+@media (prefers-color-scheme: dark) {
+  .card:hover {
+  box-shadow: 0 8px 16px #000000;
+  }
+}*/
+/* CARD DE CSS*/
+
+section.card__css{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #2794cd;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__css:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #2794cd;
+  color: #ffffff;
+}
+
+.card__content__css {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #2794cd;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/css3.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__css:hover .card__content__css {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+/* CARD DE JAVASCRIPT*/
+section.card__js{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #f7e018;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__js:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #f7e018;
+  color: #ffffff;
+}
+
+.card__content__js {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f7e018;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/javascript.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__js:hover .card__content__js {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+/* CARD DE REACT*/
+
+section.card__react{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #00d8ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__react:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #00d8ff;
+  color: #ffffff;
+}
+
+.card__content__react {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #00d8ff;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/react.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__react:hover .card__content__react {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+/* CARD DE NODE*/
+
+section.card__node{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #90c53f;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__node:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #90c53f;
+  color: #ffffff;
+}
+
+.card__content__node {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #90c53f;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/nodejs.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__node:hover .card__content__node {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+/* CARD DE GIT*/
+
+section.card__git{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #eb4623;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__git:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #eb4623;
+  color: #ffffff;
+}
+
+.card__content__git {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #eb4623;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/git.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__git:hover .card__content__git {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+/* CARD DE PGADMIN*/
+
+section.card__pgAdmin{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #326790;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__pgAdmin:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #326790;
+  color: #ffffff;
+}
+
+.card__content__pgAdmin {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #326790;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/pgadmin.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.card__pgAdmin:hover .card__content__pgAdmin {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+
+/* CARD DE BOOTSTRAP*/
+
+section.card__bootstrap{
+  position: relative;
+  width: 160px;
+  height: 150px;
+  background-color: #8212fa;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  perspective: 1000px;
+  transition: all 0.8s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.card__bootstrap:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px #000000;
+  background-color: #8212fa;
+  color: #ffffff;
+}
+
+.card__content__bootstrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #8212fa;
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  background-image: url(/Skills-Images/bootstrap.png);
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+}
+
+.card__bootstrap:hover .card__content__bootstrap {
+  transform: rotateX(0deg);
+}
+
+.card__title {
+  margin: 0;
+  padding-left: 5px;
+  font-size: 24px;
+  color: var(--white);
+  font-weight: 800;
+  color: white;
+}
+
+
+

@@ -1,6 +1,6 @@
 import React from 'react'
-import Slider from '../../components/Carrousel/SliderSkills'
 import './Skills.css'
+import CardSkills from '../../components/Carrousel/CardSkills'
 
 const Skills = () => {
   return (
@@ -18,8 +18,8 @@ const Skills = () => {
           <li className='skills-item'>Git Bash</li>
         </ul>
       </div>
-      <div className='skills__slider'>
-        <Slider/>
+      <div className='skills__cards'>
+        <CardSkills/>
       </div>
     </div>
   )
