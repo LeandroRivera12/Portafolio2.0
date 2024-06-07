@@ -12,10 +12,13 @@ const AnimationText = () => {
           strings: ['<i>Hola, soy Leandro</i>', 'Un desarrollador web'],
           typeSpeed: 75,
           backSpeed: 65,
-          loop: true,
+          loop: false,
           cursorChar: '|',
         });
-    
+          
+        return (() => {
+            typed.destroy();
+        })
       }, []);
     
       return (
