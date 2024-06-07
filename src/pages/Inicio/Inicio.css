@@ -1,12 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
-
 .home__container{
    display: grid;
    /* width: 100%; */
    grid-template-columns: repeat(3, 300px);
    justify-content: center;
    gap: 20px;
-   font-family: "Montserrat", sans-serif;
 }
 
 .home__description:nth-child(1) {

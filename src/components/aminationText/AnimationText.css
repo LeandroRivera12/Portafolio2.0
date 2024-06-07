@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+
+.tex__animation{
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 800;
+    font-size: 40px;
+    color: rgb(33, 33, 210);
+}
