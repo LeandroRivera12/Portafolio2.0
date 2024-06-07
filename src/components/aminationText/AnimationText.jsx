@@ -9,7 +9,7 @@ const AnimationText = () => {
     
       useEffect(() => {
         const typed = new Typed(textRef.current, {
-          strings: ['<i>Hola, soy Leandro</i>', 'Un desarrollador web'],
+          strings: ['<i>Un desarrollador web</i>'],
           typeSpeed: 75,
           backSpeed: 65,
           loop: false,
@@ -23,7 +23,7 @@ const AnimationText = () => {
     
       return (
         <div className="tex__animation">
-          <span ref={textRef} />
+         <h1>Hola soy, <b>Leandro</b></h1> <span ref={textRef} />
         </div>
       );
     

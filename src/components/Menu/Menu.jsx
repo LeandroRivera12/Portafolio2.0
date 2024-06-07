@@ -28,7 +28,7 @@ function Menu({ setLoading }) {
   const handleShow = () => setShow(true);
 
   return (
-    <header>
+    <header className='header__nav'>
       
       <div className='container-fluid'>
         <div className='navb-logo'>
