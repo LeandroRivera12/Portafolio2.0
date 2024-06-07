@@ -32,7 +32,6 @@ function App() {
       </div>
       
         {Loading && <Loader/>}
-      <div className='routes__container'>
         <Routes>
             {!Loading && <Route path='/' element={<Inicio />} />}
               {!Loading && <Route path='/About' element={<SobreMi setLoading={setLoading}/>} />}
@@ -40,7 +39,6 @@ function App() {
             {!Loading && <Route path='/Projects' element={<Proyectos/>}/>}
             {!Loading && <Route path='/Contac' element={<Contacto setLoading={setLoading}/>}/>}
         </Routes>
-      </div>
     </div>
      
   )

@@ -1,8 +1,8 @@
 
 const animationText = () => {
     let textAnimation = [
-        ['L', 'e', 'a', 'n', 'd', 'r', 'o'],
-        ['D', 'e', 's', 'a', 'r', 'r', 'o', 'l', 'l', 'a', 'd', 'o', 'r', ' ', 'W', 'e', 'b']
+        ['H', 'o', 'l', 'a', ' ', 's', 'o', 'y', ' ', 'L', 'e', 'a', 'n', 'd', 'r', 'o'],
+        ['U', 'n', ' ', 'D', 'e', 's', 'a', 'r', 'r', 'o', 'l', 'l', 'a', 'd', 'o', 'r', ' ', 'W', 'e', 'b']
     ];
 
     let countLetter = -1;

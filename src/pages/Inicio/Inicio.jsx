@@ -19,7 +19,6 @@ const Inicio = () => {
   return (
      <div className='home__container'>
        <div className='home__description'>
-            <h1 className='home__header'>Hola, soy</h1>
             <div className="text__animation" ref={textRef}></div>
             <div className='barra__escritura'></div>    
         </div>
