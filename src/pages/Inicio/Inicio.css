@@ -1,22 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
 
 .home__container{
    display: grid;
    /* width: 100%; */
-   grid-template-columns: repeat(2, 50%);
+   grid-template-columns: repeat(3, 300px);
    justify-content: center;
-   
+   gap: 20px;
+   font-family: "Montserrat", sans-serif;
+}
+
+.home__description:nth-child(1) {
+    grid-column: span 2;
 }
 
 .home__description{
     margin: 20px;
-    padding: 10px 30px;
     display: flex;
     align-items: center;
 }
 
-
 .home-header{
+    font-weight: 800;
+}
+
+.text__animation{
+    margin-left: 15px;
     font-weight: 700;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
 }
 
 .barra__escritura{
@@ -82,3 +95,4 @@
         text-align: center;
     }
 }
+
