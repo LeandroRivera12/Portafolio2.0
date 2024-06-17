@@ -9,12 +9,12 @@ const CardSkills = () => {
             <div>
                <img src="/Skills-Images/html.jpg" alt="" />  
                <div className="title-content"></div>
-               <div className='title'>Html</div>
+               <div className='title'>HTML</div>
             </div>
             <div>
                <img src="/Skills-Images/css3.jpg" alt="" />
                <div className="title-content"></div>
-               <div className='title'>Css</div>
+               <div className='title'>CSS</div>
             </div>
             <div> 
                <img src="/Skills-Images/javascript.jpg" alt="" /> 
