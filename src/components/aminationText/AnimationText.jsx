@@ -9,10 +9,10 @@ const AnimationText = () => {
     
       useEffect(() => {
         const typed = new Typed(textRef.current, {
-          strings: ['<i>Hola!</i>', '<i>Hi!</i>', ],
-          typeSpeed: 75,
-          backSpeed: 65,
-          loop: false,
+          strings: ['<i>Hola!</i>', '<i>Hi!</i>', '<i>Ciao!</i>', '<i>こんにちは!</i>'],
+          typeSpeed: 125,
+          backSpeed: 115,
+          loop: true,
           cursorChar: '|',
         });
           
@@ -23,7 +23,7 @@ const AnimationText = () => {
     
       return (
         <div className="tex__animation">
-         <h1>Hola soy, <b>Leandro</b></h1> <span ref={textRef} />
+         <span ref={textRef} />
         </div>
       );
     

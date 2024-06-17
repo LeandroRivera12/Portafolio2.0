@@ -27,6 +27,47 @@ section:hover{
   transition: .3s ease;
   border-radius: 5px;
 }
+.content div:hover img {
+  transform: scale(1.2);
+}
+
+.content div .title-content {
+  content: "";
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.137) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  z-index: 1;
+  transform: translateY(100%);
+  transition: 0.5s ease;
+}
+
+
+.content div:hover .title,
+.content div:hover .title-content {
+  transform: translateY(0);
+}
+
+.content div .title {
+  position: absolute;
+  font-size: 0.85em;
+  width: 100%;
+  color: white;
+  z-index: 2;
+  bottom: 1em;
+  padding: 0.35em;
+  transform: translateY(50px);
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+
 
 
 

@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap');
+
+
 .home__container{
    display: grid;
    /* width: 100%; */
@@ -13,7 +16,21 @@
 .home__description{
     margin: 20px;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 700;
+    font-size: 40px;
+    color: rgb(33, 33, 210);
+}
+
+.home__description h1{
+    font-weight: 600;
+}
+
+.tex__container{
+    display: flex;
+    justify-content: center;
 }
 
 .home-header{
@@ -63,10 +80,12 @@
 
 
 
-@media all and (max-width: 700px){
-    .home-container{
+@media all and (max-width: 900px){
+    .home__container{
        display: flex;
        flex-direction: column;
+       justify-content: center;
+       align-items: center;
      }
     .img-conatiner{
        display: flex;
